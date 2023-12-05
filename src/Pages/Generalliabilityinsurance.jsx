@@ -97,7 +97,7 @@ function Generalliabilityinsurance (){
         </div>
       </div>
       <div className="quotes__second__style">
-        <div className="row g-4">
+        <div className="row g-4 reverser">
           <div className="col-lg-5">
             <div
               className="quotes__thumb__blk"

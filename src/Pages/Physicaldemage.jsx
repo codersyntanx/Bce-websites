@@ -104,7 +104,7 @@ function Physicaldemage(){
         </p>
       </div>
       <div className="quotes__second__style">
-        <div className="row g-4">
+        <div className="row g-4 reversertwo">
           <div className="col-lg-7 order-lg-2">
             <div
               className="quotes__content"

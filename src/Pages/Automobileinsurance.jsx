@@ -4,6 +4,9 @@ import { Link } from "react-router-dom"
 import sectionimg from "./images/section_title_shape.png"
 import thumb3 from "./images/platform_thumb_3.png"
 import thumb4 from "./images/quotes_thumb_4.png"
+import star from "./images/quotes_ico_3.svg"
+import truck from "./images/Truck.svg"
+import check from "./images/quotes_ico_3.svg"
 function Automobileinsurance (){
     return(
         <>
@@ -95,7 +98,7 @@ function Automobileinsurance (){
         </div>
       </div>
       <div className="quotes__second__style">
-        <div className="row g-4">
+        <div className="row g-4 reverser">
           <div className="col-lg-5">
             <div
               className="quotes__thumb__blk"
@@ -109,13 +112,13 @@ function Automobileinsurance (){
               <div className="quptes__thumb__card__blk">
                 <div className="quotes__thumb__card">
                   <span>
-                    <img src="images/Truck.svg" alt="" />
+                    <img src={truck} alt="" />
                   </span>
                   <p>Safety in your truck</p>
                 </div>
                 <div className="quotes__thumb__card">
                   <span>
-                    <img src="images/ShieldChevron.svg" alt="" />
+                    <img src={check} alt="" />
                   </span>
                   <p>24 hour protection</p>
                 </div>
@@ -131,7 +134,7 @@ function Automobileinsurance (){
             >
               <div className="single__quotes__content__blk">
                 <span>
-                  <img src="images/quotes_ico_3.svg" alt="" />
+                  <img src={star} alt="" />
                 </span>
                 <div className="single__quotes__content">
                   <h5>
@@ -146,7 +149,7 @@ function Automobileinsurance (){
               </div>
               <div className="single__quotes__content__blk">
                 <span>
-                  <img src="images/quotes_ico_3.svg" alt="" />
+                  <img src={star} alt="" />
                 </span>
                 <div className="single__quotes__content">
                   <h5>Required by law</h5>
@@ -159,7 +162,7 @@ function Automobileinsurance (){
               </div>
               <div className="single__quotes__content__blk">
                 <span>
-                  <img src="images/quotes_ico_3.svg" alt="" />
+                  <img src={star} alt="" />
                 </span>
                 <div className="single__quotes__content">
                   <h5>Protects against lawsuits</h5>

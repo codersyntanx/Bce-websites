@@ -747,6 +747,15 @@
     .brand__area {
         padding-top: 230px;
     }
+    .reverser{
+        flex-direction: column-reverse;
+    }
+    .reversertwo{
+        flex-direction: row-reverse;
+    }
+    .breadcrumb__area{
+        padding-top: 136px;
+    }
     .hero__area {
         min-height: auto;
         padding-top: 120px;
@@ -853,7 +862,7 @@
 
     .quotes__thumb__left__radius img {
         border-radius: 17px;
-        border-top-left-radius: 50px;
+        border-top-right-radius: 50px;
     }
 
     .open__menu {

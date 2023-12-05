@@ -1348,8 +1348,7 @@ textarea {
 }
 
 .quotes__thumb__left__radius img {
-    border-radius: 17px;
-    border-top-left-radius: 80px;
+    border-top-right-radius: 80px;
 }
 
 .contact__area .hero__form__wrapper form {

@@ -67,7 +67,7 @@ function Aboutus (){
         </div>
       </div>
       <div className="quotes__second__style">
-        <div className="row g-4">
+        <div className="row g-4 reverser">
           <div className="col-lg-5">
             <div className="quotes__thumb__blk" data-aos="zoom-in" data-aos-delay={50} data-aos-duration={1000}>
               <div className="quotes__thumb quotes__thumb__left__radius">
@@ -120,7 +120,7 @@ function Aboutus (){
   {/* =================== PLATFORM AREA START ===================== */}
   <section className="platform__area pt-0">
   <div className="container" style={{width:"100%"}}>
-    <div className="row g-4">
+    <div className="row g-4 reverser">
       <div className="col-xl-6 ">
         <div data-aos="zoom-in" data-aos-delay={50} data-aos-duration={1000} className="platform__thumb p-0">
           <img src={thumb5} width="773px" height="462px" alt="" />
