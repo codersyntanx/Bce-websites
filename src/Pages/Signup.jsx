@@ -6,7 +6,7 @@ import { Link } from "react-router-dom"
 function Signup() {
     return (
         <>
-            <div className="row" >
+            <div className="row signuppage" >
                 <div className="col-md-6 leftsider ">
                     <div className="centeralign centerdiv">
                         <Link to="/">

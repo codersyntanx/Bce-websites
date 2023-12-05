@@ -1,8 +1,7 @@
-row {
-    height: auto;
+.signuppage {
+    overflow-x: hidden; /* Hide horizontal overflow */
 }
 body {
-    overflow-x: hidden; /* Hide horizontal overflow */
     overflow-y: auto; /* Allow vertical overflow to be scrollable */
 }
 

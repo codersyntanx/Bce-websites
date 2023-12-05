@@ -133,7 +133,9 @@ row {
     .rightside {
         display: none;
     }
- 
+ leftside{
+    margin: auto;
+ }
     .account {
         text-align: left;
         font-size: 24px;
