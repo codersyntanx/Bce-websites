@@ -64,11 +64,7 @@ function Sponsorslider() {
                   <img className='mt-2' src={brandlogo2} alt="" />
                 </a>
               </div>
-              <div className="brand__slide">
-                <a href="#">
-                  <img className='mt-3' src={brandlogo3} alt="" />
-                </a>
-              </div>
+              
               <div className="brand__slide">
                 <a href="#">
                   <img className='mt-3' src={brandlogo4} alt="" />
@@ -82,6 +78,11 @@ function Sponsorslider() {
               <div className="brand__slide">
                 <a href="#">
                   <img src={brandlogo6} alt="" />
+                </a>
+              </div>
+              <div className="brand__slide">
+                <a href="#">
+                  <img className='mt-3' src={brandlogo3} alt="" />
                 </a>
               </div>
              
