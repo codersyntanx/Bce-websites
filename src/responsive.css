@@ -109,6 +109,10 @@
         font-size: 16px;
         padding: 13px 14px;
     }
+    .hero__single__form__step2 input {
+        font-size: 16px;
+        padding: 13px 14px;
+    }
 
     .section__title h3 {
         font-size: 26px;

@@ -15,7 +15,7 @@ function Signup() {
                             <p className="account" ><b>Sign up account</b></p>
                             <span className="access">Fill out follwing details</span>
                         </div>
-                        <div className="form mt-4 maincard mx-auto" >
+                        <div className="form mt-4 maincard " >
                             <input className="form-control mb-3 signupinputs" type="text" placeholder="Your Name" aria-label="Your Name" />
                             <input className="form-control mb-3 signupinputs" type="text" placeholder="E-mail" aria-label="E-mail" />
                             <input className="form-control mb-3 signupinputs" type="password" placeholder="Password" aria-label="default input example" />

@@ -104,6 +104,9 @@ function Contactus(){
                     <div className="hero__single__form__step">
                       <input type="text" placeholder="Phone number" />
                     </div>
+                    <div className="hero__single__form__step" >
+                      <input type="text" className="mt-0" placeholder="Message" style={{height:"108px"}} />
+                    </div>
                     <div className="form__btn">
                       <button type="button">I want to be a customer</button>
                       <p>
@@ -147,7 +150,7 @@ function Contactus(){
       </div>
       <div className="quotes__second__style">
         <div className="row g-4">
-          <div className="col-lg-6">
+          <div className="col-lg-5">
             <div
               className="aske__question__area"
               data-aos="fade-up"
@@ -192,7 +195,7 @@ function Contactus(){
               </div>
             </div>
           </div>
-          <div className="col-lg-6 none__phone">
+          <div className="col-lg-7 none__phone">
             <div
               className=" mt-5"
              
