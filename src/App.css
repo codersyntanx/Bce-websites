@@ -391,7 +391,7 @@ textarea {
 }
 
 .brand__slide img {
-    width: auto !important;
+    /* width: auto !important; */
 }
 
 .brand__slide {
@@ -543,8 +543,8 @@ textarea {
 .quotes__slide__wrapper .owl-dots {
     position: absolute;
     left: 24px;
-    top: 50%;
-    height: 79%;
+    top: 44%;
+    height: 83%;
     width: 7px;
     background: #DDE0E2;
     transform: translateY(-50%);
@@ -707,7 +707,7 @@ textarea {
     background: #F0F8FF;
     padding: 30px;
     border-bottom: 8px solid #002244;
-    min-height: 571px;
+    min-height: 671px;
     gap: 20px;
 }
 
@@ -1053,7 +1053,6 @@ textarea {
 
 .single__footer__bottom__step a {
     color: #FFF;
-    text-align: center;
     font-family: Montserrat;
     font-size: 16px;
     font-style: normal;
@@ -1477,7 +1476,7 @@ textarea {
 @media (min-width: 200px) and (max-width: 500px) {
     .trucking__area{
         background-image:none;
-        background-color:#041423;
+        background-color:#0c1c2c;
     }
 .smallbger{
     background-image: url(./Pages/images/truckman\ \ \(1\).png);

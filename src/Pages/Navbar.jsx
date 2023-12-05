@@ -104,7 +104,7 @@ function Navbar(){
                 </li>
                 <li>
                   <Link to="">
-                    Products &amp; Services <i class="fa-solid fa-angle-down"></i>
+                    Products &amp; Services  <i class="fa-solid fa-angle-down"></i>
                   </Link>
                   <div className="dropdown__menu">
                     <ul>

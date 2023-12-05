@@ -2,42 +2,48 @@ import { useEffect } from "react";
 import circle from "./images/CircleWavyCheck.svg"
 import medal from "./images/Medal_black.svg"
 import arrowright from "./images/ArrowRight_black.svg"
+import sectionimg from "./images/section_title_shape.png"
+
 function Educate (){
-    useEffect(() => {
-        const owlOptions = {
-          loop: true,
-          autoplay: true,
-          autoplayTimeout: 5000,
-          autoplayHoverPause: true,
-          margin: 20, 
-      
-        };// Check screen width and set items accordingly
+  useEffect(() => {
+    const owlOptions = {
+      loop: false, // Set loop to false initially
+      autoplay: false,
+      autoplayTimeout: 5000,
+      autoplayHoverPause: true,
+      margin: 20,
+    };
+
+    // Check screen width and set items accordingly
+    if (window.innerWidth >= 768) {
+      owlOptions.items = 3;
+      owlOptions.loop = false;
+
+      window.jQuery(".manage__inner__blk").owlCarousel(owlOptions);
+
+      // Refresh Owl Carousel on window resize
+      window.addEventListener("resize", () => {
         if (window.innerWidth < 768) {
           owlOptions.items = 1;
+          owlOptions.loop = true; // Set loop to true for small screens
+          window.jQuery(".manage__inner__blk").trigger("destroy.owl.carousel").owlCarousel(owlOptions);
         } else {
           owlOptions.items = 3;
+          owlOptions.loop = false; // Set loop to false for large screens
+          window.jQuery(".manage__inner__blk").trigger("destroy.owl.carousel").owlCarousel(owlOptions);
         }
-    
-        
-    
-        window.jQuery(".manage__inner__blk").owlCarousel(owlOptions);
-    
-        // Refresh Owl Carousel on window resize
-        window.addEventListener('resize', () => {
-          if (window.innerWidth < 768) {
-            owlOptions.items = 1;
-          } else {
-            owlOptions.items = 3;
-          }
-    
-          window.jQuery(".manage__inner__blk").trigger('destroy.owl.carousel').owlCarousel(owlOptions);
-        });
-    
-        // Clean up the event listener on component unmount
-        return () => {
-          window.removeEventListener('resize', () => {});
-        };
-      }, []);
+      });
+    } else {
+      owlOptions.items = 1;
+      owlOptions.loop = true; // Set loop to true for small screens
+      window.jQuery(".manage__inner__blk").owlCarousel(owlOptions);
+    }
+
+    // Clean up the event listener on component unmount
+    return () => {
+      window.removeEventListener("resize", () => {});
+    };
+  }, []);
       
     return(
         <>
@@ -52,7 +58,7 @@ function Educate (){
         <span>Bolanos Commercial Enterprise Platform</span>
         <h3>Quote. Purchase. Manage.</h3>
         <div className="section__title__shape">
-          <img src="images/section_title_shape.png" alt="" />
+          <img src={sectionimg} alt="" />
         </div>
         <p>
           The BCE Trucking platform enhances your speed and efficiency when it

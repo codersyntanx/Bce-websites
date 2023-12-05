@@ -4,6 +4,7 @@ import phone from "./images/Phone.svg"
 import facebook from "./images/FacebookLogo.svg"
 import insta from "./images/InstagramLogo.svg"
 import youtube from "./images/youtube.png"
+import mianlogo from "./images/logo.svg"
 function Footer (){
     return(
         <>
@@ -16,7 +17,7 @@ function Footer (){
         <div className="col-xl-3">
           <div className="footer__logo">
             <a href="#">
-              <img src="images/logo.svg" alt="" />
+              <img src={mianlogo} alt="" />
             </a>
             <p>Where we drive your insurance needs forward!</p>
           </div>

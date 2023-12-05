@@ -10,7 +10,7 @@
 }
 .main__menu ul li a {
     font-size: 13px;
-    gap: 0px;
+    gap: 6px;
 }
 }
 
@@ -53,7 +53,9 @@
     .dropdown__menu ul li {
         margin: 0;
     }
-
+.owl-item .active{
+    height: 500px;
+}
     .leadership__blk .owl-nav {
         left: 50%;
         transform: translateX(-50%);
@@ -924,10 +926,10 @@
     }
 
     .quotes__slide__wrapper .owl-dots {
-        width: 72%;
+        width: 80%;
         height: 5px;
         top: 22px;
-        left: 50%;
+        left: 57%;
         transform: translateX(-50%);
     }
 
@@ -1150,10 +1152,29 @@
         flex-direction: column;
         gap: 20px;
     }
-
-    .footer__bottom__area {
-        display: none;
+    .single__footer__bottom__step {
+        display: block;
+        text-align: left !important; /* Align items to the left */
+        gap: 48px;
     }
+    
+    .single__footer__bottom__step a {
+        color: #FFF;
+        font-family: Montserrat;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 105%;
+        letter-spacing: -0.16px;
+        display: block;
+        align-items: center;
+        gap: 10px;
+        margin: 0 !important; /* Reset margin to ensure left alignment */
+    }
+    
+    
+    
+    
 
     .footer__copyright__area {
         margin-top: 0;

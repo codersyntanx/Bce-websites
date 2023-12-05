@@ -10,7 +10,11 @@ import Navbar from "./Navbar"
 import Educate from "./Educate"
 import Testonomial from "./Testonomial"
 import Footer from "./Footer"
-
+import sectionimg from "./images/section_title_shape.png"
+import dollar from "./images/CurrencyDollar.svg"
+import jeep from "./images/Jeep.svg"
+import call from "./images/PhoneCall.svg"
+import medal from "./images/Medal.svg"
 function Tester (){
     return(
       
@@ -192,7 +196,7 @@ function Tester (){
             <div className="medal__content">
               <h4>
                 <span>
-                  <img src="images/Medal.svg" alt="" />
+                  <img src={medal} alt="" />
                 </span>{" "}
                 <small>
                   Have the best insurance in your hands right now,{" "}
@@ -222,7 +226,7 @@ function Tester (){
             <span>The best insurance companies are with us</span>
             <h3>How our platform works</h3>
             <div className="section__title__shape">
-              <img src="images/section_title_shape.png" alt="" />
+              <img src={sectionimg} alt="" />
             </div>
             <p>
               Watch the video and understand why thousands of people are already
@@ -238,7 +242,7 @@ function Tester (){
             <div className="single__platform__step">
               <a href="#">
                 <span>
-                  <img src="images/PhoneCall.svg" alt="" />
+                  <img src={call} alt="" />
                 </span>{" "}
                 Connect with a live agent
               </a>
@@ -246,7 +250,7 @@ function Tester (){
             <div className="single__platform__step">
               <a href="#">
                 <span>
-                  <img src="images/Jeep.svg" alt="" />
+                  <img src={jeep} alt="" />
                 </span>{" "}
                 Trucking industry especialists
               </a>
@@ -254,7 +258,7 @@ function Tester (){
             <div className="single__platform__step">
               <a href="#">
                 <span>
-                  <img src="images/CurrencyDollar.svg" alt="" />
+                  <img src={dollar}alt="" />
                 </span>{" "}
                 Competitive rates
               </a>

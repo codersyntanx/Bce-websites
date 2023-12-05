@@ -9,7 +9,7 @@ import brandlogo3 from "./images/brand_logo_3.svg";
 import brandlogo4 from "./images/brand_logo_4.svg";
 import brandlogo5 from "./images/brand_logo_5.svg";
 import brandlogo6 from "./images/brand_logo_6.svg";
-import brandlogo7 from "./images/brand_logo_6.svg";
+
 
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
@@ -84,11 +84,7 @@ function Sponsorslider() {
                   <img src={brandlogo6} alt="" />
                 </a>
               </div>
-              <div className="brand__slide">
-                <a href="#">
-                  <img src={brandlogo7} alt="" />
-                </a>
-              </div>
+             
 
               {/* Repeat for other brand slides */}
             </Slider>

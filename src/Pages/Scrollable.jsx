@@ -9,6 +9,8 @@ import quotes from "./images/quotes_thumb_1.png"
 import call from "./images/PhoneCall.svg"
 import jeep from "./images/Jeep.svg"
 import dollar from "./images/CurrencyDollar.svg"
+import sectionimg from "./images/section_title_shape.png"
+
 function Scrollable (){
     
   useEffect(() => {
@@ -47,6 +49,9 @@ function Scrollable (){
         <>
         <style>
         {`
+          @media (max-width: 2000px) {
+
+          }
           @media (max-width: 1200px) {
             .owl-nav {
               position: absolute;
@@ -75,7 +80,7 @@ function Scrollable (){
         <span>The best insurance companies are with us</span>
         <h3>Get Instant Quotes Online Today!</h3>
         <div className="section__title__shape">
-          <img src="images/section_title_shape.png" alt="" />
+          <img src={sectionimg} alt="" />
         </div>
         <p>
           Get in touch with an expert who can guide you through the intricacies

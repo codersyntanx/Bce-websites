@@ -1,6 +1,8 @@
 import profile from "./images/review_profile.png"
 import ico from "./images/quote_ico.svg"
 import { useEffect } from "react";
+import sectionimg from "./images/section_title_shape.png"
+
 function Testonomial (){
   useEffect(() => {
     window.jQuery(".review__inner__blk").owlCarousel({
@@ -54,7 +56,7 @@ function Testonomial (){
               <span>See who is walking this path with us</span>
               <h3>Google reviews</h3>
               <div className="section__title__shape">
-                <img src="images/section_title_shape.png" alt="" />
+                <img src={sectionimg} alt="" />
               </div>
               <p>
                 Watch the video and understand why thousands of people are
