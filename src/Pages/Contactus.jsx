@@ -8,6 +8,8 @@ import rightarrow from "./images/arrow_right.svg"
 import maper from "./images/map_ico.svg"
 import email from "./images/email_ico.svg"
 import call from "./images/call_ico.svg"
+import sectionline from "./images/section_title_shape.png"
+
 function Contactus(){
     return(
         <>
@@ -145,7 +147,7 @@ function Contactus(){
         <span>Got questions? We have answers!</span>
         <h3>Frequently asked questions</h3>
         <div className="section__title__shape">
-          <img src="images/section_title_shape.png" alt="" />
+          <img src={sectionline} alt="" />
         </div>
       </div>
       <div className="quotes__second__style">
