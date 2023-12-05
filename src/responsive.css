@@ -1179,9 +1179,9 @@
         line-height: 105%;
         letter-spacing: -0.16px;
         display: block;
+       margin-top: 15px;
         align-items: center;
         gap: 10px;
-        margin: 0 !important; /* Reset margin to ensure left alignment */
     }
     
     
