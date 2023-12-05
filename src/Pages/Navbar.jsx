@@ -56,7 +56,7 @@ function Navbar(){
                     <Link to="/motor-cargo-insurance">Motor truck cargo insurance</Link>
                   </li>
                   <li>
-                    <Link to="/physical-damage-insurance">ynp</Link>
+                    <Link to="/physical-damage-insurance">Physical demage insurance</Link>
                   </li>
                 </ul>
               </div>
@@ -124,7 +124,7 @@ function Navbar(){
                         </Link>
                       </li>
                       <li>
-                        <Link to="/physical-damage-insurance">ynp</Link>
+                        <Link to="/physical-damage-insurance">Physical damage insurance</Link>
                       </li>
                     </ul>
                   </div>

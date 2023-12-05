@@ -17,14 +17,18 @@ function Testonomial (){
       navText: ['<i class="fas fa-chevron-left testimonial-left"></i>', '<i class="fas fa-chevron-right testimonial-right"></i>'],
       responsive: {
         0: {
-          items: 1, // Show 1 item on small screens
+          items: 1,
+          slideBy: 1, // Add this line to ensure only one item is visible and slides at a time
+          animateIn: 'fadeInDown',
+          animateOut: 'fadeOutUp',
         },
         768: {
-          items: 2, // Show 2 items on larger screens
+          items: 2,
         },
       },
     });
   }, []);
+  
       
     return(
         <>
