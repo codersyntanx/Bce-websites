@@ -17,35 +17,47 @@ function Testonomial (){
       navText: ['<i class="fas fa-chevron-left testimonial-left"></i>', '<i class="fas fa-chevron-right testimonial-right"></i>'],
       responsive: {
         0: {
-          items: 1,
-          slideBy: 1, // Add this line to ensure only one item is visible and slides at a time
+          items: 1.1,
+          slideBy: 1,
           animateIn: 'fadeInDown',
           animateOut: 'fadeOutUp',
+       
         },
         768: {
           items: 2,
+          autoplaySpeed: 5000, // Default speed for larger screens
         },
       },
     });
   }, []);
   
+  
+  
       
     return(
         <>
-         <style>
-        {`
-          @media (max-width: 1200px) {
-          .testimonial__area  .owl-nav {
-              position: absolute;
-              top: 90%;
-              transform: translateY(-50%);
-              left: 35%;  // Adjust the left spacing as needed
-              right: auto;
-            }
-         
-          }
-        `}
-      </style>
+        <style>
+  {`
+    @media (max-width: 1200px) {
+      .testimonial__area .owl-nav {
+        position: absolute;
+        top: 90%;
+        transform: translateY(-50%);
+        left: 35%;  // Adjust the left spacing as needed
+        right: auto;
+      }
+
+      .testimonial__area .owl-prev {
+        margin-right: 0px;  // Adjust the gap for the left arrow
+      }
+
+      .testimonial__area .owl-next {
+        margin-left: 0px;  // Adjust the gap for the right arrow
+      }
+    }
+  `}
+</style>
+
           <section className="testimonial__area">
     <div className="container">
       <div className="row g-4">
