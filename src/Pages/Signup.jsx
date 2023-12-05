@@ -5,8 +5,8 @@ import { Link } from "react-router-dom"
 
 function Signup() {
     return (
-        <>
-            <div className="row signuppage" >
+        <div className="signuppage">
+            <div className="row " >
                 <div className="col-md-6 leftsider ">
                     <div className="centeralign centerdiv">
                         <Link to="/">
@@ -45,7 +45,7 @@ function Signup() {
                 </div>
             </div>
 
-        </>
+        </div>
     )
 }
 export default Signup
