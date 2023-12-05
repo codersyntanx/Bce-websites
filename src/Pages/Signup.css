@@ -10,10 +10,7 @@ row {
     width: 100px;
 }
 
-.centeralign {
-    margin: auto;
-    width: 70%;
-}
+
 
 .account {
     font-size: 32px;
@@ -144,10 +141,10 @@ row {
         margin-top: 0px;
     }
 
-    .access {
+    /* .access {
         margin-right: 25px;
 
-    }
+    } */
 
     .sugnupbtn {
         padding: 20px;
