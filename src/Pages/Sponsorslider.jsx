@@ -56,7 +56,7 @@ function Sponsorslider() {
             <Slider {...sliderSettings}>
               <div className="brand__slide">
                 <a href="#">
-                  <img src={brandlogo1} alt="" />
+                  <img className='mx-2' src={brandlogo1} alt="" />
                 </a>
               </div>
               <div className="brand__slide">
