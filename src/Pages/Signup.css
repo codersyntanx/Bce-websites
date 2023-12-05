@@ -1,6 +1,10 @@
 row {
     height: auto;
 }
+body {
+    overflow-x: hidden; /* Hide horizontal overflow */
+    overflow-y: auto; /* Allow vertical overflow to be scrollable */
+}
 
 .centerdiv {
     margin-top: 40px;
