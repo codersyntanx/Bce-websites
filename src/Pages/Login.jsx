@@ -1,5 +1,5 @@
 import "./Login.css"
-import logo from "./images/Brand-logo.png"
+import logo from "./images/LOGO BOLANOS 2024 PDF.svg"
 import facebook from "./images/icons8-facebook-48.png";
 import twitter from "./images/icons8-twitter-circled-48.png";
 import google from "./images/icons8-google-48.png";

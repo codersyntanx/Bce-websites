@@ -1,5 +1,5 @@
 import "./Signup.css"
-import logo from "./images/Brand-logo.png"
+import logo from "./images/LOGO BOLANOS 2024 PDF.svg"
 import busy from "./images/WhatsApp Image 2023-11-24 at 02.55.39_96707ce0.jpg"
 import { Link } from "react-router-dom"
 
@@ -10,7 +10,7 @@ function Signup() {
                 <div className="col-md-6 leftsider ">
                     <div className="centeralign centerdiv">
                         <Link to="/">
-                            <img className="mx-auto signuplogo" src={logo} alt="bce-logo" /></Link>
+                            <img className="mx-auto signuplogo" style={{width:"128px", height:"63px"}} src={logo} alt="bce-logo" /></Link>
                         <div className="mt-4 signupheadings">
                             <p className="account" ><b>Sign up account</b></p>
                             <span className="access">Fill out follwing details</span>
