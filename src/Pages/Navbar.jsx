@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import mobilelogo from "./images/LOGO BOLANOS 2024 PDF.svg"
 import clossmenu from "./images/close_menu.svg"
 import logo from "./images/LOGO BOLANOS 2024 PDF.svg"
+import whitelogo from "./images/whitelogo.svg"
 import menubar from "./images/menu_bar.svg"
 import { Link } from 'react-router-dom';
 function Navbar(){
@@ -92,7 +93,7 @@ function Navbar(){
       <div className="header__inner__blk">
         <div className="header__logo">
           <Link to="/">
-            <img src={logo} style={{width:"136px", height:"71px",marginRight:"-37px"}} alt="" />
+            <img src={whitelogo}  alt="" />
           </Link>
         </div>
         <div className="header__right__blk">

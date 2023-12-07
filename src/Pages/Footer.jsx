@@ -4,7 +4,7 @@ import phone from "./images/Phone.svg"
 import facebook from "./images/FacebookLogo.svg"
 import insta from "./images/InstagramLogo.svg"
 import youtube from "./images/youtube.png"
-import mianlogo from "./images/LOGO BOLANOS 2024 PDF.svg"
+import mianlogo from "./images/whitelogo.svg"
 function Footer (){
     return(
         <>
@@ -17,7 +17,7 @@ function Footer (){
         <div className="col-xl-3">
           <div className="footer__logo">
             <a href="#">
-              <img src={mianlogo} style={{width:"136px", height:"71px"}} alt="" />
+              <img src={mianlogo}  alt="" />
             </a>
             <p>Where we drive your insurance needs forward!</p>
           </div>
@@ -61,18 +61,18 @@ function Footer (){
                   </span>{" "}
                   66 Waverley Dr. Ste 630, Frederick, MD 21702
                 </a>
-                <a href="#">
-                  <span>
-                    <img src={envolope} alt="" />
-                  </span>{" "}
-                  Operations@bceins.com
-                </a>
-                <a href="#">
-                  <span>
-                    <img src={phone} alt="" />
-                  </span>{" "}
-                  301-591-6550
-                </a>
+                <a href="tel:+13015916550">
+  <span>
+    <img src={phone} alt="Phone" />
+  </span>{" "}
+  301-591-6550
+</a>
+<a href="mailto:Operations@bceins.com">
+  <span>
+    <img src={envolope} alt="Email" />
+  </span>{" "}
+  Operations@bceins.com
+</a>
               </div>
             </div>
             <div className="footer__btn">

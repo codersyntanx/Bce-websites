@@ -5,7 +5,10 @@
     width: 136px;
     height: 71px;
 }
-
+.header__logo{
+    width: 136px;
+    height: 71px;
+}
 * {
     box-sizing: border-box;
     margin: 0;
@@ -83,7 +86,7 @@ textarea {
 .section-padding {
     padding: 80px 0;
 }
-
+ 
 
 /* ------------------------------------ HERO AREA START ------------------------------ */
 
@@ -92,7 +95,7 @@ textarea {
     background-position: center;
     background-repeat: no-repeat;
     min-height: 848px;
-    padding-top: 198px;
+    padding-top: 170px;
 }
 
 .header__area {
